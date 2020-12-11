@@ -25,6 +25,7 @@ public:
 
     QString value(const QString &key, const QString &defaultValue = QString());
     void setValue(const QString &key, const QString &value);
+    void removeValue(const QString &key);
 
 signals:
     // Property change signals
